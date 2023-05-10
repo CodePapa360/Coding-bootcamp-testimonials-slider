@@ -7,7 +7,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <h2 align="center">
 
-[🚀Live Site](https://coding-bootcamp-testimonials-slider-alamin.netlify.app/)
+[🚀Live Site](https://coding-bootcamp-testimonials-codepapa.netlify.app/)
 |
 [💡Frontend Mentor]()
 
@@ -17,7 +17,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 </p>
 
-<a align="center" href="https://coding-bootcamp-testimonials-slider-alamin.netlify.app/">
+<a align="center" href="https://coding-bootcamp-testimonials-codepapa.netlify.app/">
 
 ![Screenshot](./screenshots/Coding-bootcamp-testimonials-slider-codepapa360.png)
 

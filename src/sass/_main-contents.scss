@@ -1,0 +1,118 @@
+.testimonials {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;
+  // gap: 1rem;
+  grid-template-areas:
+    "image"
+    "words";
+
+  max-width: 500px;
+
+  @media screen and (min-width: $bp-large) {
+    max-width: 1000px;
+    grid-template-columns: 20rem auto;
+    grid-template-rows: auto;
+    grid-template-areas: "words image";
+  }
+
+  .images-container {
+    grid-area: image;
+    position: relative;
+    padding: 12%;
+    background-image: url(../images/pattern-bg.svg);
+    // background-image: url(../src/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .image {
+      border-radius: 10px;
+      overflow: hidden;
+      opacity: 1;
+      transition: opacity 0.3s ease;
+    }
+  }
+
+  .words-container {
+    grid-area: words;
+    z-index: 2;
+    margin-top: 2rem;
+    background-image: url(../images/pattern-quotes.svg);
+    // background-image: url(../src/images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 20%;
+    padding-top: 2rem;
+
+    @media screen and (min-width: $bp-large) {
+      margin-top: 0;
+
+      margin-right: -6rem;
+      padding-top: 4rem;
+
+      background-position: top left 20%;
+      background-size: 25%;
+    }
+
+    .words {
+      opacity: 1;
+      transition: opacity 0.3s ease;
+
+      .person-name {
+        font-weight: 500;
+        font-size: 1rem;
+        display: block;
+        margin-top: 1rem;
+      }
+
+      .person-title {
+        font-size: 1rem;
+        color: var(--grayish-blue);
+      }
+    }
+  }
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 999px;
+  overflow: hidden;
+
+  @media screen and (min-width: $bp-large) {
+    left: 28%;
+  }
+
+  .btn {
+    background-color: rgb(255, 255, 255);
+    padding: 0.7rem 0.8rem;
+    border: none;
+    cursor: pointer;
+
+    img {
+      width: 60%;
+    }
+
+    &:hover {
+      background-color: var(--grayish-blue);
+    }
+
+    &:active {
+      background-color: #e4e4e4;
+    }
+  }
+}

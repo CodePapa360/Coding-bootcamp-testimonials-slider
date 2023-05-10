@@ -9,7 +9,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 [🚀Live Site](https://coding-bootcamp-testimonials-codepapa.netlify.app/)
 |
-[💡Frontend Mentor]()
+[💡Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-coding-bootcamp-testimonials-slider-jqGB6z8c87)
 
 </h2>
 

@@ -14,7 +14,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 </h2>
 
 <p align="center">
-
+The "Coding Bootcamp Testimonials Slider" is a responsive web component developed for a Frontend Mentor project. This interactive slider showcases coding bootcamp testimonials using HTML, CSS, and JavaScript. Users can easily navigate through testimonials with smooth transitions and a visually appealing design. It demonstrates skills in responsive design, CSS styling, and JavaScript interactivity.
 </p>
 
 <a align="center" href="https://coding-bootcamp-testimonials-codepapa.netlify.app/">
@@ -41,6 +41,16 @@ Users should be able to:
 - [Webpack - a module bundler](https://webpack.js.org/)
 
 ## What I learned
+
+The "Coding Bootcamp Testimonials Slider" project provided me with an opportunity to apply and enhance my skills in CSS and JavaScript. By working on this project, I was able to demonstrate my proficiency in creating responsive layouts, implementing smooth transitions, and utilizing JavaScript for interactivity.
+
+In terms of JavaScript, I leveraged its capabilities to handle user interactions and control the slider functionality. Through event listeners, I implemented navigation buttons and keyboard controls, enabling users to easily navigate through the testimonials. I also made use of DOM manipulation to dynamically update the slider's content and transition between slides smoothly.
+
+Throughout the development process, I encountered challenges and successfully found solutions. For example, I effectively managed the timing of slide transitions by carefully coordinating the fade-out and fade-in effects using setTimeout().
+
+By completing this project, I have further strengthened my skills in CSS and JavaScript, gaining hands-on experience in building interactive and dynamic components. It has provided me with valuable insights into creating engaging user experiences and utilizing advanced CSS and JavaScript techniques effectively.
+
+I am proud of the outcome of this project and the opportunity it provided for me to showcase my skills and knowledge in front-end development.
 
 ## Installation
 
